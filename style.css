@@ -1,0 +1,392 @@
+﻿.movies {
+    background-color: #17162e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+    .movies .div {
+        background-color: #17162e;
+        overflow: hidden;
+        width: 1440px;
+        height: 1359px;
+        position: relative;
+    }
+
+    .movies .text-wrapper {
+        position: absolute;
+        top: 61px;
+        left: 579px;
+        font-family: "Kumbh Sans-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #ffffff;
+        font-size: 36px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .movies .p {
+        position: absolute;
+        top: 244px;
+        left: 577px;
+        font-family: "Kumbh Sans-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #ffffff;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .movies .rectangle-2 {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        top: 262px;
+        left: 550px;
+        border-radius: 4px;
+        border: 2px solid;
+        border-color: #706da7;
+    }
+
+
+    .movies .movie {
+        position: absolute;
+        width: 1224px;
+        height: 201px;
+        top: 345px;
+        left: 108px;
+        background-color: #1d1c3b;
+        border-radius: 8px;
+        box-shadow: var(--shadow);
+    }
+
+    .movies .text-wrapper-2 {
+        position: absolute;
+        width: 268px;
+        top: 63px;
+        left: 249px;
+        font-family: "Kumbh Sans-Medium", Helvetica;
+        font-weight: 500;
+        color: #ffffff;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: normal;
+        white-space: nowrap;
+    }
+
+    .movies .text-wrapper-3 {
+        top: 108px;
+        left: 281px;
+        position: absolute;
+        width: 27px;
+        font-family: "Kumbh Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .movies .text-wrapper-4 {
+        top: 108px;
+        left: 386px;
+        position: absolute;
+        width: 84px;
+        font-family: "Kumbh Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .movies .img {
+        position: absolute;
+        width: 20px;
+        height: 19px;
+        top: 109px;
+        left: 249px;
+    }
+
+    .movies .image {
+        height: 139px;
+        top: 24px;
+        left: 46px;
+        border-radius: 800px;
+        overflow: hidden;
+        box-shadow: 20px 20px 30px #0000004c;
+        position: absolute;
+        width: 139px;
+    }
+
+    .movies .image-2 {
+        height: 134px;
+        top: 5px;
+        left: 0;
+        object-fit: cover;
+        position: absolute;
+        width: 139px;
+    }
+
+    .movies .heart {
+        position: absolute;
+        width: 23px;
+        height: 20px;
+        top: 109px;
+        left: 352px;
+    }
+
+    .movies .description {
+        position: absolute;
+        width: 592px;
+        top: 40px;
+        left: 595px;
+        font-family: "Kumbh Sans-Medium", Helvetica;
+        font-weight: 500;
+        color: #acacac;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: 31.9px;
+    }
+
+    .movies .movie-2 {
+        top: 594px;
+        position: absolute;
+        width: 1224px;
+        height: 201px;
+        left: 108px;
+        background-color: #1d1c3b;
+        border-radius: 4px;
+        box-shadow: var(--shadow);
+    }
+
+    .movies .lorem-ipsum-is {
+        position: absolute;
+        width: 592px;
+        top: 29px;
+        left: 595px;
+        font-family: "Kumbh Sans-Medium", Helvetica;
+        font-weight: 500;
+        color: #acacac;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: 31.9px;
+    }
+
+    .movies .frame {
+        position: absolute;
+        width: 139px;
+        height: 139px;
+        top: 24px;
+        left: 46px;
+        border-radius: 800px;
+        box-shadow: 20px 20px 30px #0000004c;
+        background-image: url(./img/image-3.png);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .movies .vector {
+        position: absolute;
+        width: 21px;
+        height: 18px;
+        top: 110px;
+        left: 353px;
+    }
+
+    .movies .movie-3 {
+        top: 843px;
+        position: absolute;
+        width: 1224px;
+        height: 201px;
+        left: 108px;
+        background-color: #1d1c3b;
+        border-radius: 4px;
+        box-shadow: var(--shadow);
+    }
+
+    .movies .text-wrapper-5 {
+        position: absolute;
+        width: 268px;
+        top: 50px;
+        left: 248px;
+        font-family: "Kumbh Sans-Medium", Helvetica;
+        font-weight: 500;
+        color: #ffffff;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .movies .text-wrapper-6 {
+        top: 115px;
+        left: 280px;
+        position: absolute;
+        width: 27px;
+        font-family: "Kumbh Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .movies .text-wrapper-7 {
+        top: 115px;
+        left: 385px;
+        position: absolute;
+        width: 84px;
+        font-family: "Kumbh Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .movies .vector-2 {
+        position: absolute;
+        width: 20px;
+        height: 19px;
+        top: 116px;
+        left: 248px;
+    }
+
+    .movies .frame-2 {
+        background-image: url(./img/image-2.png);
+        position: absolute;
+        width: 139px;
+        height: 139px;
+        top: 24px;
+        left: 46px;
+        border-radius: 800px;
+        box-shadow: 20px 20px 30px #0000004c;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .movies .vector-3 {
+        position: absolute;
+        width: 23px;
+        height: 20px;
+        top: 116px;
+        left: 351px;
+    }
+
+    .movies .lorem-ipsum-is-2 {
+        left: 594px;
+        position: absolute;
+        width: 592px;
+        top: 36px;
+        font-family: "Kumbh Sans-Medium", Helvetica;
+        font-weight: 500;
+        color: #acacac;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: 31.9px;
+    }
+
+    .movies .movie-4 {
+        top: 1092px;
+        position: absolute;
+        width: 1224px;
+        height: 201px;
+        left: 108px;
+        background-color: #1d1c3b;
+        border-radius: 4px;
+        box-shadow: var(--shadow);
+    }
+
+    .movies .frame-3 {
+        background-image: url(./img/image-4.png);
+        position: absolute;
+        width: 139px;
+        height: 139px;
+        top: 24px;
+        left: 46px;
+        border-radius: 800px;
+        box-shadow: 20px 20px 30px #0000004c;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .movies .lorem-ipsum-is-3 {
+        left: 595px;
+        position: absolute;
+        width: 592px;
+        top: 36px;
+        font-family: "Kumbh Sans-Medium", Helvetica;
+        font-weight: 500;
+        color: #acacac;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: 31.9px;
+    }
+
+    .movies .overlap-group {
+        position: absolute;
+        width: 634px;
+        height: 74px;
+        top: 155px;
+        left: 403px;
+        border-radius: 8px;
+    }
+
+    .movies .rectangle {
+        position: absolute;
+        width: 634px;
+        height: 74px;
+        top: 0;
+        left: 0;
+        background-color: #ffffff;
+        border-radius: 8px;
+        opacity: 0.2;
+    }
+
+    .movies .text-wrapper-8 {
+        position: absolute;
+        top: 25px;
+        left: 24px;
+        font-family: "Kumbh Sans-Medium", Helvetica;
+        font-weight: 500;
+        color: #8a8a8a;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .movies .search-icon {
+        position: absolute;
+        width: 20px;
+        height: 21px;
+        top: 29px;
+        left: 588px;
+    }
+
+    .movies .rectangle-2 {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        top: 262px;
+        left: 550px;
+        border-radius: 4px;
+        border: 2px solid;
+        border-color: #706da7;
+    }
+
+    .movies .vector-4 {
+        position: absolute;
+        width: 20px;
+        height: 19px;
+        top: 1964px;
+        left: 1077px;
+    }
+
+    .movies .vector-5 {
+        position: absolute;
+        width: 21px;
+        height: 18px;
+        top: 1966px;
+        left: 1179px;
+    }
