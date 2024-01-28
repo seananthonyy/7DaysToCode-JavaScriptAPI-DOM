@@ -2,76 +2,21 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="styleguide.css" />
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="movies">
-        <div class="div">
-            <div class="text-wrapper">Filmes Populares</div>
-            <p class="p">Mostrar meus filmes favoritos apenas</p>
-            <div class="movie">
-                <div class="text-wrapper-2">Avengers Endgame (2019)</div>
-                <div class="text-wrapper-3">9.2</div>
-                <div class="text-wrapper-4">Favoritar</div>
-                <img class="img" src="img/star.svg" />
-                <div class="image"><img class="image-2" src="img/image-1.png" /></div>
-                <img class="heart" src="img/heart.svg" />
-                <p class="description">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                    scrambled it to make a type specimen book.
-                </p>
-            </div>
-            <div class="movie-2">
-                <div class="text-wrapper-2">Batman (2022)</div>
-                <div class="text-wrapper-3">9.4</div>
-                <div class="text-wrapper-4">Favoritar</div>
-                <p class="lorem-ipsum-is">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                    scrambled it to make a type specimen book.
-                </p>
-                <img class="img" src="img/star.svg" />
-                <div class="frame"></div>
-                <img class="heart" src="img/heart-full.svg" />
-            </div>
-            <div class="movie-3">
-                <p class="text-wrapper-5">Doctor Strange in the Multiverse of Madness</p>
-                <div class="text-wrapper-6">8.5</div>
-                <div class="text-wrapper-7">Favoritar</div>
-                <img class="img" src="img/star.svg" />
-                <div class="frame-2"></div>
-                <img class="heart" src="img/heart.svg" />
-                <p class="lorem-ipsum-is-2">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                    scrambled it to make a type specimen book.
-                </p>
-            </div>
-            <div class="movie-4">
-                <div class="text-wrapper-2">Avatar (2009)</div>
-                <div class="text-wrapper-3">9.5</div>
-                <div class="text-wrapper-4">Favoritar</div>
-                <img class="img" src="img/star.svg" />
-                <div class="frame-3"></div>
-                <img class="heart" src="img/heart-full.svg" />
-                <p class="lorem-ipsum-is-3">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                    scrambled it to make a type specimen book.
-                </p>
-            </div>
-            <div class="overlap-group">
-                <div class="rectangle"></div>
-                <p class="text-wrapper-8">Digite algum filme para pesquisar...</p>
-                <img class="search-icon" src="img/search-icon.svg" />
-            </div>
-            <div class="rectangle-2"></div>
-            <img class="vector-4" src="img/vector-7.svg" />
-            <img class="vector-5" src="img/image.svg" />
+    <main>
+        <h2>Filmes Populares</h2>
+        <div class="input-container">
+            <input type="text" name="movie-name" id="movie-name" placeholder="Digite algum filme para pesquisar...">
+            <img src="img/search-icon.svg" alt="Ícone de pesquisa" class="searchIcon">
         </div>
-    </div>
+        <div class="showOnlyFavorites">
+            <input type="checkbox" name="onlyFavorites" id="onlyFavorites">
+            <label for="onlyFavorites">Mostrar apenas meus filmes favoritos</label>
+        </div>
+        <div class="movies"></div>
+    </main>
+    <script src="main.js"></script>
 </body>
 </html>
